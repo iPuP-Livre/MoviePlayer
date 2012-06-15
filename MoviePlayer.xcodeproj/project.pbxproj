@@ -15,6 +15,8 @@
 		E0102E1B150BB6D3003B0038 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0102E1A150BB6D3003B0038 /* AppDelegate.m */; };
 		E0102E1E150BB6D3003B0038 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0102E1D150BB6D3003B0038 /* ViewController.m */; };
 		E0102E21150BB6D3003B0038 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0102E1F150BB6D3003B0038 /* ViewController.xib */; };
+		E0102E28150BB71D003B0038 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0102E27150BB71D003B0038 /* MediaPlayer.framework */; };
+		E0102E2A150BB96C003B0038 /* Lucky_man_pres.mov in Resources */ = {isa = PBXBuildFile; fileRef = E0102E29150BB96C003B0038 /* Lucky_man_pres.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +24,17 @@
 		E0102E0A150BB6D3003B0038 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E0102E0C150BB6D3003B0038 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E0102E0E150BB6D3003B0038 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E0102E12150BB6D3003B0038 /* MoviePlayer-Info.plist */ = {isa = PBXFileReference; path = "MoviePlayer-Info.plist"; sourceTree = "<group>"; };
+		E0102E12150BB6D3003B0038 /* MoviePlayer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MoviePlayer-Info.plist"; sourceTree = "<group>"; };
 		E0102E14150BB6D3003B0038 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E0102E16150BB6D3003B0038 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E0102E18150BB6D3003B0038 /* MoviePlayer-Prefix.pch */ = {isa = PBXFileReference; path = "MoviePlayer-Prefix.pch"; sourceTree = "<group>"; };
-		E0102E19150BB6D3003B0038 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		E0102E18150BB6D3003B0038 /* MoviePlayer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MoviePlayer-Prefix.pch"; sourceTree = "<group>"; };
+		E0102E19150BB6D3003B0038 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E0102E1A150BB6D3003B0038 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E0102E1C150BB6D3003B0038 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		E0102E1C150BB6D3003B0038 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E0102E1D150BB6D3003B0038 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E0102E20150BB6D3003B0038 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		E0102E27150BB71D003B0038 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		E0102E29150BB96C003B0038 /* Lucky_man_pres.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = Lucky_man_pres.mov; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0102E28150BB71D003B0038 /* MediaPlayer.framework in Frameworks */,
 				E0102E0B150BB6D3003B0038 /* UIKit.framework in Frameworks */,
 				E0102E0D150BB6D3003B0038 /* Foundation.framework in Frameworks */,
 				E0102E0F150BB6D3003B0038 /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +55,7 @@
 		E0102DFB150BB6D3003B0038 = {
 			isa = PBXGroup;
 			children = (
+				E0102E29150BB96C003B0038 /* Lucky_man_pres.mov */,
 				E0102E10150BB6D3003B0038 /* MoviePlayer */,
 				E0102E09150BB6D3003B0038 /* Frameworks */,
 				E0102E07150BB6D3003B0038 /* Products */,
@@ -67,6 +73,7 @@
 		E0102E09150BB6D3003B0038 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E0102E27150BB71D003B0038 /* MediaPlayer.framework */,
 				E0102E0A150BB6D3003B0038 /* UIKit.framework */,
 				E0102E0C150BB6D3003B0038 /* Foundation.framework */,
 				E0102E0E150BB6D3003B0038 /* CoreGraphics.framework */,
@@ -150,6 +157,7 @@
 			files = (
 				E0102E15150BB6D3003B0038 /* InfoPlist.strings in Resources */,
 				E0102E21150BB6D3003B0038 /* ViewController.xib in Resources */,
+				E0102E2A150BB96C003B0038 /* Lucky_man_pres.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
